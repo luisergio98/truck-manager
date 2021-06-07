@@ -53,7 +53,15 @@ namespace TruckManager
                     pattern: "{controller=Trucks}/{action=Index}/{id?}");
             });
 
-            new TruckContext().Database.Migrate();
+            try
+            {
+                new TruckContext().Database.EnsureCreated();
+                new TruckContext().Database.Migrate();
+            }
+            catch (Exception)
+            {
+            }
+            
         }
     }
 }

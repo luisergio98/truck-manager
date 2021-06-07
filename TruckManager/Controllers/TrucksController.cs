@@ -56,7 +56,8 @@ namespace TruckManager.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Model,ManufactureYear,ModelYear")] TruckModel truckModel)
         {
-            
+
+            truckModel.Model = truckModel.Model != null ? truckModel.Model.ToUpper() : null;
             if (ModelState.IsValid)
             {
                 _context.Add(truckModel);
@@ -94,6 +95,7 @@ namespace TruckManager.Controllers
                 return NotFound();
             }
 
+            truckModel.Model = truckModel.Model != null ? truckModel.Model.ToUpper() : null;
             if (ModelState.IsValid)
             {
                 try
