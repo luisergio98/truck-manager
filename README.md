@@ -62,7 +62,10 @@ After selecting the database and filling in its credentials if necessary, expand
 <br><br>
 
 If you want to create a new database for your data just add "Initial Catalog=YOURDATABASENAME;" in the connection string after the "Data Source".<br><br>
-Data Source=DESKTOP-I01TPH2;<b>Initial Catalog=TruckDatabse</b>;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+Data Source=(localdb)\\MSSQLLocalDB;<b>Initial Catalog=TruckDatabase;</b>Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+If you are unsure how to set up a database, visit the Microsoft documentation:<br>
+https://docs.microsoft.com/pt-br/sql/ssdt/how-to-connect-to-a-database-and-browse-existing-objects?view=sql-server-ver15
 
 By doing these steps you can now run the Web project and test the system.
 
@@ -128,7 +131,10 @@ Após selecionar o banco e preencher suas credenciais caso necessário, expanda 
 <br> <br>
 
 Se você quiser criar um novo banco de dados para suas informações adicione "Initial Catalog=NOMEDOSEUBANCO;" na linha de conexão após o "Data Source".<br><br>
-Data Source=DESKTOP-I01TPH2;<b>Initial Catalog=TruckDatabse</b>;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+Data Source=(localdb)\\MSSQLLocalDB;<b>Initial Catalog=TruckDatabase;</b>Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
+No caso de dúvidas em como configurar um banco de dados, visite a documentação da Microsoft:<br>
+https://docs.microsoft.com/pt-br/sql/ssdt/how-to-connect-to-a-database-and-browse-existing-objects?view=sql-server-ver15
 
 
 Fazendo esses passos você já pode rodar o projeto Web e testar o sistema.
