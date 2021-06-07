@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManager", "TruckManager\TruckManager.csproj", "{3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TruckManagerUnitTests", "TruckManagerUnitTests\TruckManagerUnitTests.csproj", "{F1310F6E-721B-4C92-90DC-CD9883294B36}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1} = {3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CFA38CD-1474-4964-B0B9-22E6B7BBE7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1310F6E-721B-4C92-90DC-CD9883294B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1310F6E-721B-4C92-90DC-CD9883294B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1310F6E-721B-4C92-90DC-CD9883294B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1310F6E-721B-4C92-90DC-CD9883294B36}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {115DA2EF-D11F-411B-9E38-61AE1C241703}
+	EndGlobalSection
+EndGlobal
