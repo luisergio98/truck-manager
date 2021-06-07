@@ -61,6 +61,9 @@ After selecting the database and filling in its credentials if necessary, expand
 </div> 
 <br><br>
 
+If you want to create a new database for your data just add "Initial Catalog=YOURDATABASENAME;" in the connection string after the "Data Source".<br><br>
+Data Source=DESKTOP-I01TPH2;<b>Initial Catalog=TruckDatabse</b>;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
 By doing these steps you can now run the Web project and test the system.
 
 <br><br><br>
@@ -123,6 +126,10 @@ Após selecionar o banco e preencher suas credenciais caso necessário, expanda 
   
 </div>
 <br> <br>
+
+Se você quiser criar um novo banco de dados para suas informações adicione "Initial Catalog=NOMEDOSEUBANCO;" na linha de conexão após o "Data Source".<br><br>
+Data Source=DESKTOP-I01TPH2;<b>Initial Catalog=TruckDatabse</b>;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False
+
 
 Fazendo esses passos você já pode rodar o projeto Web e testar o sistema.
 
